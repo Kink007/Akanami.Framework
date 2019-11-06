@@ -3,3 +3,11 @@
 ################################################################################
 
 *.sqlite
+*.dtbcache
+*.lock
+*.ide
+*.ide-shm
+*.ide-wal
+/netcore/Akanami.Host/ConsoleHost/bin/Debug/netcoreapp3.0
+/netcore/Akanami.Host/ConsoleHost/obj/Debug/netcoreapp3.0
+/netcore/Akanami.Host/ConsoleHost/obj
