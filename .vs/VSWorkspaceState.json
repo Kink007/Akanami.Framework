@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\netcore",
-    "\\netcore\\Akanami.Host"
+    "\\netcore"
   ],
-  "SelectedNode": "\\netcore\\Akanami.Host",
+  "SelectedNode": "\\netcore",
   "PreviewInSolutionExplorer": false
 }

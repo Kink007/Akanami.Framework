@@ -11,3 +11,5 @@
 /netcore/Akanami.Host/ConsoleHost/bin/Debug/netcoreapp3.0
 /netcore/Akanami.Host/ConsoleHost/obj/Debug/netcoreapp3.0
 /netcore/Akanami.Host/ConsoleHost/obj
+/netcore/Akanami.AspNetCore/Akanami.AspNetCore/bin/Debug/netcoreapp3.0
+/netcore/Akanami.AspNetCore/Akanami.AspNetCore/obj
