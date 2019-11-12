@@ -13,3 +13,5 @@
 /netcore/Akanami.Host/ConsoleHost/obj
 /netcore/Akanami.AspNetCore/Akanami.AspNetCore/bin/Debug/netcoreapp3.0
 /netcore/Akanami.AspNetCore/Akanami.AspNetCore/obj
+/netcore/Akanami.Data/Akanami.EfCoreSqlite/bin/Debug/netcoreapp3.0
+/netcore/Akanami.Data/Akanami.EfCoreSqlite/obj
