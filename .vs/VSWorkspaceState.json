@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\netcore"
+    "\\netcore",
+    "\\netcore\\Akanami.AspNetCore",
+    "\\netcore\\Akanami.Data",
+    "\\netcore\\Akanami.Host"
   ],
-  "SelectedNode": "\\netcore",
+  "SelectedNode": "\\netcore\\Akanami.Data\\Akanami.Data.sln",
   "PreviewInSolutionExplorer": false
 }
