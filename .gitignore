@@ -15,3 +15,5 @@
 /netcore/Akanami.AspNetCore/Akanami.AspNetCore/obj
 /netcore/Akanami.Data/Akanami.EfCoreSqlite/bin/Debug/netcoreapp3.0
 /netcore/Akanami.Data/Akanami.EfCoreSqlite/obj
+/netcore/Akanami.Configuration/Akanami.JsonConfiguration/bin/Debug/netcoreapp3.0
+/netcore/Akanami.Configuration/Akanami.JsonConfiguration/obj
