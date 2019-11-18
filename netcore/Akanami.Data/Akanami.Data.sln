@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29411.108
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akanami.EfCoreSqlServer", "Akanami.EfCoreSqlServer\Akanami.EfCoreSqlServer.csproj", "{88219502-28B5-4A46-BC95-24DFB734F916}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akanami.EfCoreSqlServer", "Akanami.EfCoreSqlServer\Akanami.EfCoreSqlServer.csproj", "{88219502-28B5-4A46-BC95-24DFB734F916}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akanami.EfCoreSqlite", "Akanami.EfCoreSqlite\Akanami.EfCoreSqlite.csproj", "{0207A119-E250-45CA-8C34-0CC89DEB65C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{88219502-28B5-4A46-BC95-24DFB734F916}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88219502-28B5-4A46-BC95-24DFB734F916}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88219502-28B5-4A46-BC95-24DFB734F916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0207A119-E250-45CA-8C34-0CC89DEB65C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0207A119-E250-45CA-8C34-0CC89DEB65C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0207A119-E250-45CA-8C34-0CC89DEB65C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0207A119-E250-45CA-8C34-0CC89DEB65C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
