@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using System.IO;
+using log4net;
 
 namespace Akanami.AspNetCore
 {
@@ -18,6 +20,14 @@ namespace Akanami.AspNetCore
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
+                //.UseContentRoot(Directory.GetCurrentDirectory())
+                .ConfigureLogging((context, logging) => 
+                    {
+                        string file = Path.Combine(Directory.GetCurrentDirectory(), "log4net.config");
+                        logging.ClearProviders();
+
+                        logging.AddLog4Net(file);
+                    })
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
