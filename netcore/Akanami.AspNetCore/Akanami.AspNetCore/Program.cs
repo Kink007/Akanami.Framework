@@ -20,13 +20,13 @@ namespace Akanami.AspNetCore
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
-                //.UseContentRoot(Directory.GetCurrentDirectory())
+                .UseContentRoot(Directory.GetCurrentDirectory())
                 .ConfigureLogging((context, logging) => 
                     {
-                        string file = Path.Combine(Directory.GetCurrentDirectory(), "log4net.config");
-                        logging.ClearProviders();
+                        //string file = Path.Combine(Directory.GetCurrentDirectory(), "log4net.config");
+                        //logging.ClearProviders();
 
-                        logging.AddLog4Net(file);
+                        logging.AddLog4Net();
                     })
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
